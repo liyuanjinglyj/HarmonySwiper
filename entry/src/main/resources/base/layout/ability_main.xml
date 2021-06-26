@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+
+    <StackLayout
+        ohos:height="match_content"
+        ohos:width="match_parent">
+
+        <PageSlider
+            ohos:id="$+id:ability_main_pageslider"
+            ohos:height="match_content"
+            ohos:width="match_parent"/>
+
+        <PageSliderIndicator
+            ohos:id="$+id:ability_main_pagesliderindicator"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:padding="8vp"
+            ohos:layout_alignment="bottom"/>
+
+    </StackLayout>
+
+</DirectionalLayout>
